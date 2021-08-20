@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.contact {
+  width: 100%;
+  background-color: #cad3d3;
+  padding: 75px 0;
+  text-align: center;
+}
+
+.contact .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact .container .contact-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .container .contact-item .item {
+  width: 362px;
+  padding: 0 22px;
+  position: relative;
+  margin: 35px 0;
+}
+
+.contact .container .contact-item .item .item-money {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  z-index: 1;
+  background-color: #ffffff;
+  top: -7%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.contact .container .contact-item .item .item-money p {
+  font-size: 1.5rem;
+}
+
+.contact .container .contact-item .item .item-money span {
+  font-size: 0.6rem;
+  color: #b4c0c9;
+}
+
+.contact .container .contact-item .item .item-logo {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 10px;
+}
+
+.contact .container .contact-item .item .item-logo img {
+  width: 100%;
+}
+
+.contact .container .contact-item .item .item-logo p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 0.63rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.contact .container .contact-item .item .img {
+  position: relative;
+}
+
+.contact .container .contact-item .item .img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contact .container .contact-item .item .img h2 {
+  position: absolute;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 1.7rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.contact .container .contact-item .item .item-money-ocean p {
+  color: #7ac0fa;
+}
+
+.contact .container .contact-item .item .item-money-mountains {
+  background-color: #2c2e3d;
+}
+
+.contact .container .contact-item .item .item-money-mountains p {
+  color: #7c3867;
+}
+
+.contact .container .contact-item .item .item-money-forest p {
+  color: #40b22d;
+}
+
+.contact .container .contact-item .item .item-content {
+  background-color: #ffff;
+  color: #7f8e99;
+  font-size: 0.9rem;
+  word-break: break-word;
+}
+
+.contact .container .contact-item .item .item-content .item-title {
+  padding: 15px;
+  font-size: 0.6rem;
+}
+
+.contact .container .contact-item .item .item-content .item-title .title {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.contact .container .contact-item .item .item-content .item-txt p {
+  padding: 15px 0;
+  background-color: #f4f6f7;
+}
+
+.contact .container .contact-item .item .item-content .item-txt span {
+  padding: 15px 0;
+  display: block;
+}
+
+.contact .container .contact-item .item .item-content button {
+  margin: 40px 0;
+  padding: 12px 22px;
+  font-size: 1.12rem;
+  background: none;
+}
+
+.contact .container .contact-item .item .item-content button:hover {
+  cursor: pointer;
+}
+
+.contact .container .contact-item .item .item-content .btn-ocean {
+  color: #2196f7;
+  border: 1px solid #2196f7;
+}
+
+.contact .container .contact-item .item .item-content .btn-ocean:hover {
+  background-color: #2196f7;
+  color: #ffffff;
+}
+
+.contact .container .contact-item .item .item-content .btn-mountains {
+  color: #6c136f;
+  border: 1px solid #6c136f;
+}
+
+.contact .container .contact-item .item .item-content .btn-mountains:hover {
+  color: #ffffff;
+  background-color: #6c136f;
+}
+
+.contact .container .contact-item .item .item-content .btn-forest {
+  color: #32ad1e;
+  border: 1px solid #32ad1e;
+}
+
+.contact .container .contact-item .item .item-content .btn-forest:hover {
+  color: #ffffff;
+  background-color: #32ad1e;
+}
+/*# sourceMappingURL=main.css.map */

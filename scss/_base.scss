@@ -1,0 +1,153 @@
+.contact {
+  width: 100%;
+  background-color: $bg-contact;
+  padding: 75px 0;
+  text-align: center;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    .contact-item {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .item {
+        width: 362px;
+        padding: 0 22px;
+        position: relative;
+        margin: 35px 0;
+        .item-money {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+          z-index: 1;
+          background-color: $bg-money-ocean;
+          top: -7%;
+          left: 50%;
+          transform: translateX(-50%);
+          p {
+            font-size: $fs-money;
+          }
+          span {
+            font-size: $fs-title-small;
+            color: $color-title-small;
+          }
+        }
+        .item-logo {
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          left: 10px;
+          img {
+            width: 100%;
+          }
+          p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: $fs-logo;
+            color: $color-logo;
+            letter-spacing: 1px;
+          }
+        }
+        .img {
+          position: relative;
+          img {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+          h2 {
+            position: absolute;
+            letter-spacing: 1px;
+            font-weight: 100;
+            font-size: $fs-img;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: $color-img;
+          }
+        }
+        .item-money-ocean {
+          p {
+            color: $color-money-ocean;
+          }
+        }
+        .item-money-mountains {
+          background-color: $bg-money-mountains;
+          p {
+            color: $color-money-mountains;
+          }
+        }
+        .item-money-forest {
+          p {
+            color: $color-money-forest;
+          }
+        }
+        .item-content {
+          background-color: #ffff;
+          color: $color-text-content;
+          font-size: $fs-text-content;
+          word-break: break-word;
+          .item-title {
+            padding: 15px;
+            font-size: $fs-title-small;
+            .title {
+              font-size: $fs-title;
+              font-weight: 100;
+            }
+          }
+          .item-txt {
+            p {
+              padding: 15px 0;
+              background-color: $bg-text-content;
+            }
+            span {
+              padding: 15px 0;
+              display: block;
+            }
+          }
+          button {
+            margin: 40px 0;
+            padding: 12px 22px;
+            font-size: $fs-btn;
+            background: none;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+          .btn-ocean {
+            color: $color-btn-ocean;
+            border: 1px solid $border-btn-ocean;
+            &:hover {
+              background-color: $bg-btn-ocean-hover;
+              color: $color-btn-ocean-hover;
+            }
+          }
+          .btn-mountains {
+            color: $color-btn-mountains;
+            border: 1px solid $border-btn-mountains;
+            &:hover {
+              color: $color-btn-mountains-hover;
+              background-color: $bg-btn-mountains-hover;
+            }
+          }
+          .btn-forest {
+            color: $color-btn-forest;
+            border: 1px solid $border-btn-forest;
+            &:hover {
+              color: $color-btn-forest-hover;
+              background-color: $bg-btn-forest-hover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
